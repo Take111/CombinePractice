@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF7B25C4251C21DE007068C9 /* FormViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7B25C3251C21DE007068C9 /* FormViewController.storyboard */; };
+		CF7B25CF251C2297007068C9 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B25CE251C2297007068C9 /* FormViewController.swift */; };
 		CFCB3815251B783800597A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3814251B783800597A88 /* AppDelegate.swift */; };
 		CFCB3817251B783800597A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3816251B783800597A88 /* SceneDelegate.swift */; };
 		CFCB3819251B783800597A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3818251B783800597A88 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF7B25C3251C21DE007068C9 /* FormViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FormViewController.storyboard; sourceTree = "<group>"; };
+		CF7B25CE251C2297007068C9 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		CFCB3811251B783800597A88 /* CombinePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombinePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCB3814251B783800597A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFCB3816251B783800597A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				CFCB381D251B783900597A88 /* Assets.xcassets */,
 				CFCB381F251B783900597A88 /* LaunchScreen.storyboard */,
 				CFCB3822251B783900597A88 /* Info.plist */,
+				CF7B25C3251C21DE007068C9 /* FormViewController.storyboard */,
+				CF7B25CE251C2297007068C9 /* FormViewController.swift */,
 			);
 			path = CombinePractice;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				CFCB3821251B783900597A88 /* LaunchScreen.storyboard in Resources */,
 				CFCB381E251B783900597A88 /* Assets.xcassets in Resources */,
 				CFCB381C251B783800597A88 /* Main.storyboard in Resources */,
+				CF7B25C4251C21DE007068C9 /* FormViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,7 @@
 			files = (
 				CFCB3819251B783800597A88 /* ViewController.swift in Sources */,
 				CFCB3815251B783800597A88 /* AppDelegate.swift in Sources */,
+				CF7B25CF251C2297007068C9 /* FormViewController.swift in Sources */,
 				CFCB3817251B783800597A88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
